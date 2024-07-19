@@ -113,62 +113,97 @@ Power BI: Connect data sources and create interactive visuals.
 # Life Science Project on IRIS Flower Dataset
 
 
-Project Overview:
+**Project Overview:**
 This project involves a comprehensive analysis of the Iris dataset, a widely used dataset in machine learning, to perform exploratory data analysis (EDA), clustering, classification, and neural network modeling. The objective is to uncover insights from the dataset, visualize data patterns, and apply various machine learning techniques to classify and predict flower species based on their features.
 
-Key Tasks and Deliverables:
+**Key Tasks and Deliverables:**
 
-Data Loading and Inspection:
+**Data Loading and Inspection:**
 
 Loaded the Iris dataset from a CSV file.
-Conducted initial inspection to understand data structure, handle missing values, and verify target column assignment.
-Performed descriptive statistics and visualized class distribution.
-Exploratory Data Analysis (EDA):
 
-Created various visualizations to understand relationships between features:
+Conducted initial inspection to understand data structure, handle missing values, and verify target column assignment.
+
+Performed descriptive statistics and visualized class distribution.
+
+**Exploratory Data Analysis (EDA):**
+
+**Created various visualizations to understand relationships between features:**
+
 Scatter plots comparing Sepal Length vs. Sepal Width and Petal Length vs. Petal Width.
+
 Pair plots to visualize feature distributions and relationships.
+
 Histograms and KDE plots to analyze feature distributions.
+
 Box plots to identify potential outliers.
-Data Preprocessing:
+
+**Data Preprocessing:**
 
 Scaled features using StandardScaler for normalization.
+
 Handled outliers using IQR method and visualized the cleaned data.
-Simple Linear Regression:
+
+**Simple Linear Regression:**
 
 Implemented a simple linear regression model to predict the target variable based on Sepal Length.
+
 Visualized the regression line to assess model performance.
-Hierarchical Clustering:
+
+**Hierarchical Clustering:**
 
 Applied DIANA (Divisive Analysis) hierarchical clustering to understand data structure.
+
 Visualized the clustering results using a dendrogram and applied Agglomerative Clustering to identify clusters.
-Support Vector Machine (SVM) Classification:
+
+**Support Vector Machine (SVM) Classification:**
 
 Split data into training and testing sets.
+
 Trained an SVM model with a linear kernel to classify data into clusters.
+
 Evaluated the model using confusion matrix and classification report.
+
 Visualized SVM predictions on the feature space.
-Neural Network Modeling with PyTorch:
+
+**Neural Network Modeling with PyTorch:**
 
 Defined and trained a simple neural network using PyTorch.
+
 Monitored loss during training and evaluated model accuracy on the test set.
+
 Visualized neural network predictions.
-Technologies Used:
+
+**Technologies Used:**
 
 Python
+
 Pandas
+
 NumPy
+
 Matplotlib
+
 Seaborn
+
 Scikit-learn
+
 PyTorch
+
 SciPy
-Skills Demonstrated:
+
+**Skills Demonstrated:**
 
 Data Cleaning and Preprocessing
+
 Exploratory Data Analysis (EDA)
+
 Data Visualization
+
 Machine Learning (Regression, Clustering, Classification)
+
 Neural Network Implementation with PyTorch
-Impact and Learnings:
+
+**Impact and Learnings:**
+
 This project provided hands-on experience in working with a real-world dataset, applying a range of machine learning techniques, and interpreting results. It demonstrated the ability to handle data preprocessing, build predictive models, and effectively visualize data and model outcomes.
